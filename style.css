@@ -1,16 +1,17 @@
 body {
     padding-bottom: 40px;
     margin: 0px;
-    padding-top: 40px;
+    /* padding-top: 40px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-left: 150px;
+    padding-left: 150px; */
     background: #1F2937;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 0;
     
 }
@@ -74,8 +75,34 @@ button {
 .right1{
     display: flex;
 }
-img {
+.img1 {
     width: 700px;
     height: 300px;
-
 }
+.section {
+    background: #F9F8FA;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+
+
