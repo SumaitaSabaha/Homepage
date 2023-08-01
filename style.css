@@ -1,10 +1,10 @@
 body {
     padding-bottom: 40px;
     margin: 0px;
-    /* padding-top: 40px;
+    padding-top: 40px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-left: 150px; */
+    padding-left: 150px;
     background: #1F2937;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -17,11 +17,11 @@ body {
 }
 .left {
     color: #F9F8FA;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
 }
 .right {
-    font-size: 25px;
+    font-size: 20px;
 }
 a {
     text-decoration: none;
@@ -49,12 +49,12 @@ ul {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 48px;
     font-weight: 800;
 }
 
 p{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 button {
@@ -76,7 +76,7 @@ button {
     display: flex;
 }
 .img1 {
-    width: 700px;
+    width: 600px;
     height: 300px;
 }
 .section {
@@ -104,5 +104,11 @@ img {
     gap: 52px;
 }
 
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
 
